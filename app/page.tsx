@@ -2,7 +2,7 @@ import { Content } from "./components/Content";
 
 export default function Home() {
   return (
-    <center className="p-3">
+    <center className="p-3 h-dvh">
       <Content />
     </center>
   );

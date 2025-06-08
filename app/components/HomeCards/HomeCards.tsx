@@ -7,7 +7,7 @@ import { cardData, container, item } from "./CardData";
 export function HomeCards() {
   return (
     <motion.div
-      className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-10"
+      className="grid grid-cols-2 md:grid-cols-4 sm:grid-cols-2 gap-6 mt-10"
       variants={container}
       initial="hidden"
       animate="show"
