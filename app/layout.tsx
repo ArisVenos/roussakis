@@ -4,15 +4,17 @@ import { Footer } from "./components/footer/Footer";
 
 export default function RootLayout({
   children,
-}: Readonly<{
+}: {
   children: React.ReactNode;
-}>) {
+}) {
   return (
     <html lang="en">
       <body>
-        <Menu />
-        {children}
-        <Footer />
+        <div className="min-h-screen flex flex-col">
+          <Menu />
+          <main className="flex-grow">{children}</main>
+          <Footer />
+        </div>
       </body>
     </html>
   );
