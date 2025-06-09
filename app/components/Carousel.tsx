@@ -23,7 +23,15 @@ export function Carousel() {
         <img src="/carousel_2.png" className="w-full" />
       </div>
       <div>
-        <h3>3</h3>
+        <video
+          className="max-w-full rounded-lg shadow-md"
+          controls
+          autoPlay={false}
+          muted
+        >
+          <source src="/video.mp4" />
+          Your browser does not support the video tag.
+        </video>
       </div>
     </Slider>
   );
