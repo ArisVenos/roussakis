@@ -3,7 +3,7 @@ import { HomeCards } from "./HomeCards/HomeCards";
 
 export function Content() {
   return (
-    <div className="h-dvh">
+    <div className="">
       <Carousel />
       <div className="pt-10" />
       <HomeCards />

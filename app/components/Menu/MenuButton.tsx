@@ -11,7 +11,7 @@ export function MenuButton({
 }) {
   return (
     <button
-      className="h-full text-black-900 hover:bg-red-500 font-bold m-3 px-5"
+      className="h-full text-black-900 hover:bg-red-500 font-bold m-3 px-5 cursor-pointer"
       onClick={() => redirection({ target })}
     >
       {label}

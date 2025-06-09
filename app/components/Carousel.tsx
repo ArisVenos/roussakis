@@ -15,12 +15,12 @@ export function Carousel() {
     slidesToScroll: 1,
   };
   return (
-    <Slider {...settings} className="h-82 w-full max-w-xl mx-auto py-10">
+    <Slider {...settings} className="h-82 w-full max-w-xl mx-auto">
       <div>
-        <img src="/carousel_1.jpg" className="w-full h-82" />
+        <img src="/carousel_1.jpg" className="w-full" />
       </div>
       <div>
-        <h3>2</h3>
+        <img src="/carousel_2.png" className="w-full" />
       </div>
       <div>
         <h3>3</h3>
